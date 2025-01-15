@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Interface</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header .logo {
+      display: flex;
+      align-items: center;
+    }
+    .header .logo img {
+      height: 20px;
+      margin-right: 10px;
+    }
+    .header .menu {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .menu a {
+      color: white;
+      text-decoration: none;
+    }
+    .menu .search {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .menu input[type="text"] {
+      padding: 5px;
+    }
+    .menu .user-icon {
+      display: flex;
+      align-items: center;
+    }
+    .menu .user-icon img {
+      height: 20px;
+      border-radius: 50%;
+    }
+    .main-content {
+      background-color: #f8f1ff;
+      border: 1px dashed #ddd;
+      margin: 20px auto;
+      padding: 50px;
+      max-width: 80%;
+      text-align: center;
+    }
+    .main-content span {
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">
+      <img src="https://via.placeholder.com/40" alt="Internet Archive Logo">
+      <span>INTERNET ARCHIVE</span>
+    </div>
+    <div class="menu">
+      <a href="#">My Books</a>
+      <a href="#">Browse</a>
+      <div class="search">
+        <select>
+          <option>All</option>
+          <option>Books</option>
+          <option>Articles</option>
+        </select>
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="user-icon">
+        <img src="https://via.placeholder.com/20" alt="User Icon">
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <span>Placeholder</span>
+  </div>
+
+</body>
+</html>
